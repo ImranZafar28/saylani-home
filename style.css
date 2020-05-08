@@ -1,0 +1,119 @@
+div#adiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #2C69C6;
+}
+.a , .b , .c {
+    min-width: 150px;
+    max-width: 400px;
+}
+li.icon{
+    display: inline;
+}
+img.SIcon{
+    width: 1.1em;
+    margin: 0.3em;
+}
+p.first{
+    text-align: center;
+    padding: 3px 10px 10px 3px;
+    color: white;
+}
+button.donation{
+    margin: 2px;
+    padding: 5px 5px 5px 5px;
+}
+a.donation{
+    color: green;
+    text-decoration: none;
+}
+.first{
+    display: inline-block;
+}
+div#bdiv{
+    width: 100%;
+    background-color: #F4F8F9;
+}
+img#saylani{
+    width: 13em;
+}
+.dropbtn {
+    border-radius: 20px;
+    background-color: #F4F8F9;
+    color: black;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+}
+.dropbtn:hover{
+    color: white;
+    background-color: #2C69C6;
+}
+.menubar {
+    position: relative;
+    display: inline-block;
+}
+.menubar-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.menubar-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.menubar-content a:hover {
+    color: white;
+    background-color: #2C69C6;
+}
+.menubar:hover .menubar-content {
+    display: block;
+}
+div#cdiv{
+    width: 100%;
+    background-color: #F4F8F9;
+}
+div#para{
+    color: gray;
+}
+img#SRL{
+    width: 2.7em;
+}
+div#intro{
+    text-align: center;
+    padding: 1.5em 0em 0em 0em;
+}
+div#para{
+    padding: 1em 12em 5em 12em;
+}
+div#ddiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #2E59EC;
+}
+img.service_icon{
+    width: 2.4em;
+}
+div#ediv{
+    width: 100%;
+    background-color: #F4F8F9;
+}
+div.servicediv{
+    min-width: 220px;
+    max-width: 400px;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    height: 200px;
+    color: white;
+}
